@@ -195,7 +195,7 @@ clear
 msg -bar
 msg -bar3
 msg -tit
-echo -e "${cor[3]}       INSTALADOR MONO Y MULTI SSL By @Kalix1"
+echo  -e  " $ {cor [3]}        INSTALADOR MONO Y MULTI SSL By @ putisp
 msg -bar
 echo -e "${cor[1]}            Escoja la opcion deseada."
 msg -bar
