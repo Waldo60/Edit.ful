@@ -254,7 +254,7 @@ echo 'mess1="$(less /etc/VPS-MX/message.txt)" ' >> .bashrc
 echo 'echo "" '>> .bashrc
 echo 'echo -e "\t\033[92mRESELLER : $mess1 "'>> .bashrc
 echo 'echo "" '>> .bashrc                                               
-echo 'echo -e "\t\033[97mPARA MOSTAR PANEL BASH ESCRIBA: menu o vps-mx "'>> .bashrc
+echo 'echo -e "\t\033[97mPARA MOSTAR PANEL BASH ESCRIBA: menu - vps-mx "'>> .bashrc
 echo 'wget -O /etc/versin_script_new https://raw.githubusercontent.com/Waldo60/Edit.full/main/Install/Version &>/dev/null'>> .bashrc
 echo 'echo ""'>> .bashrc
 echo -e "         COMANDO PRINCIPAL PARA ENTRAR AL PANEL "
@@ -365,7 +365,7 @@ msg -bar2
 [[ ${#1} -gt 2 ]] && funcao_idioma || id="$1"
  }
 Key="qraKatsil/33?030ce55?7dff/8888:%05+@%?+08?+91%@"
-REQUEST=$(echo $kali1|$PUTO)
+REQUEST=$(echo $woli0|$PUTO)
 echo "$IP" > /usr/bin/vendor_code
 cd $HOME
 msg -ne "Files: "
