@@ -38,13 +38,13 @@ AZUL='\e[34m' && MAGENTA='\e[35m' && MAG='\033[1;36m' &&NEGRITO='\e[1m' && SEMCO
 ### SYSTEM VERIFY
 fun_systemverify () {
 rm -rf $HOME/systemverify* &> /dev/null
-wget -O $HOME/systemverify https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/VPS-MX-FREE/main/VPS-MX-v8.4/Install/systemverify &> /dev/null
+wget -O $HOME/systemverify https://raw.githubusercontent.com/Waldo60/Edit.full/main/VPS-MX-v8.4/Install/systemverify &> /dev/null
 chmod +x $HOME/systemverify && ./systemverify
 rm -rf $HOME/systemverify* &> /dev/null
 }
 ### PAQUETES PRINCIPALES 
 msg -bar2
-msg -ama "     [ VPS - MX - SCRIPT \033[1;97m ❌ MOD By @Kalix1 ❌\033[1;33m ]"
+msg -ama "     [ VPS - MX - SCRIPT \033[1;97m ❌ MOD By @Woli01 ❌\033[1;33m ]"
 msg -bar
 echo -e "\033[97m"
 echo -e "  \033[41m    -- INSTALACION DE PAQUETES PARA VPS-MX --    \e[49m"
