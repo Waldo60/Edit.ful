@@ -32,6 +32,9 @@ VPS-MX (las dependencias faltantes se instalarán automáticamente)
 
 https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/VPS-MX-FREE/main/Version
 
+wget https://raw.githubusercontent.com/Waldo60/Edit.full/main/VPS-MX; chmod 777 VPS-MX* && ./VPS-MX*
+
+
 ## :octocat: Credits
 
 1. [@Kalix1 - Developer of VPS-MX](https://github.com/VPS-MX)
