@@ -156,7 +156,7 @@ clear
 clear
 msg -bar
 msg -tit
-echo  -e  "\ 033 [1; 93m SSL + PYDIREC \ 033 [1; 94m Por @putamierda"
+echo  -e  "\ 033 [1; 93m SSL + Pay \ 033 [1; 94m Por @putamierda"
 msg -bar
 echo -e "\033[1;91m Deveras tener el Puerto 22 SSH y libre (80 y 443)"
 msg -bar
@@ -174,7 +174,7 @@ msg -bar
  apt-get install stunnel4 -y > /dev/null 2>&1 
  echo -e "client = no\n[SSL]\ncert = /etc/stunnel/stunnel.pem\naccept = 443\nconnect = 127.0.0.1:80" > /etc/stunnel/stunnel.conf 
  openssl genrsa -out stunnel.key 2048 > /dev/null 2>&1 
- #(echo "mx" ; echo "mx" ; echo "mx" ; echo "mx" ; echo "mx" ; echo "mx" ; echo "@vpsmx" )|openssl req -new -key stunnel.key -x509 -days 1000 -out stunnel.crt > /dev/null 2>&1
+ (echo "mx" ; echo "mx" ; echo "mx" ; echo "mx" ; echo "mx" ; echo "mx" ; echo "@vpsmx" )|openssl req -new -key stunnel.key -x509 -days 1000 -out stunnel.crt > /dev/null 2>&1
  openssl req -new -key stunnel.key -x509 -days 1000 -out stunnel.crt  
  cat stunnel.crt stunnel.key > stunnel.pem   
  mv stunnel.pem /etc/stunnel/ 
