@@ -136,7 +136,7 @@ function_verify () {
   exit 1
   } || {
   ### INTALAR VERSION DE SCRIPT
-  v1=$(curl -sSL "https://raw.githubusercontent.com/Waldo60/Edit.full/master/Version")
+  v1=$(curl -sSL "https://raw.githubusercontent.com/Waldo60/Edit.full/main/Version")
   echo "$v1" > /etc/versin_script
   }
 }
