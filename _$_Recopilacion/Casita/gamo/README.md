@@ -11,7 +11,7 @@ canal: @conectedmx
 creditos: casitadelterror
 ### 
 creditos : internos de cada script
-### 
+![](https://img.shields.io/badge/UbuntusProvados-orange)
 # creditos: kalix1
  # 
 ![](https://img.shields.io/badge/Ubuntu-14.04-orange)
