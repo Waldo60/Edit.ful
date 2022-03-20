@@ -1,5 +1,6 @@
 #!/bin/bash
 clear
+clear
 cd $HOME
 ## systemedia &> /dev/null
 rm $(pwd)/$0 &> /dev/null
