@@ -2,7 +2,7 @@
 ```
 * UPDATE 24/11/2021
 ```
-![logo](https://github.com/Waldo60/Edit.full/blob/main/Imagenes/VPS-MX-Free.png)
+![logo](https://github.com/Waldo60/Edit/blob/main/Imagenes/VPS-MX-Free.png)
 
 **Manager Script**
 
