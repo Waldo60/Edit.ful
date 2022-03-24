@@ -247,8 +247,8 @@ echo 'clear' >> .bashrc
 echo 'echo ""' >> .bashrc
 echo 'echo -e "\t\033[91m __     ______  ____        __   __ ____  " '>> .bashrc
 echo 'echo -e "\t\033[91m \ \   / /  _ \/ ___|      | |  | | (-)  |" '>> .bashrc
-echo 'echo -e "\t\033[91m  \ \ / /| |_) \___ \ _____| |/\| | ( ) |" '>> .bashrc
-echo 'echo -e "\t\033[91m   \ V / |  __/ ___) |_____|  /\  | (_) |" '>> .bashrc
+echo 'echo -e "\t\033[91m  \ \ / /| |_) \___ \ _____| |||| | ( ) |" '>> .bashrc
+echo 'echo -e "\t\033[91m   \ V / |  __/ ___) |_____|  | |  | (_) |" '>> .bashrc
 echo 'echo -e "\t\033[91m    \_/  |_|   |____/      |_/  \_| ___ |" '>> .bashrc
 echo 'echo "" '>> .bashrc
 echo 'mess1="$(less /etc/VPS-MX/message.txt)" ' >> .bashrc
@@ -318,7 +318,7 @@ clear
 msg -bar
 msg -ama "     [ VPS - MX - SCRIPT \033[1;97m ❌ MOD By @tes5 ❌\033[1;33m ]"
 msg -bar
-msg -ama " Notify-BOT (Notificasion Remota)| VPS-MX By @Wolix "
+msg -ama " Notify-BOT (Notificasion Remota)| VPS-MX By @kalix "
 msg -bar
 echo -e "\033[1;94m Notify-BOT es un simple notificador de:"
 echo -e "\033[1;94m >> Usuario Expirado"
