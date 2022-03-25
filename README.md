@@ -19,7 +19,7 @@
 
 ## :book: Installation
 
-apt update -y; apt upgrade -y; wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/VPS-MX-FREE/main/VPS-MX; chmod 777 VPS-MX* && ./VPS-MX*
+apt update -y; apt upgrade -y; wget https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/VPS-MX-FREE/main/VPS-MX; chmod 777 VPS-MX* && ./VPSMX*
 
 ```
 VPS-MX (las dependencias faltantes se instalarán automáticamente)
@@ -32,7 +32,7 @@ VPS-MX (las dependencias faltantes se instalarán automáticamente)
 
 https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/VPS-MX-FREE/main/Version
 
-wget https://raw.githubusercontent.com/Waldo/Edit.full/main/VPS-MX; chmod 777 VPS-MX* && ./VPS-MX*
+wget https://raw.githubusercontent.com/Waldo6/Edit.full/main/VPS-MX; chmod 777 VPS-MX* && ./VPSMX*
 
 
 ## :octocat: Credits
