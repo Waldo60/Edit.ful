@@ -1,5 +1,5 @@
 #!/bin/bash
-clear
+
 clear
 cd $HOME
 ## systemedia &> /dev/null
@@ -10,10 +10,12 @@ SCPidioma="${SCPdir}/idioma"
 SCPusr="${SCPdir}/controlador"
 SCPfrm="${SCPdir}/herramientas"
 SCPinst="${SCPdir}/protocolos"
+
 kalix1="aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL1dhbGRvNjAvRWRpdC5mdWxsL21haW4vTW9kdWxvcwo="
 PUTO='base64 -d'
 echo "nameserver 8.8.8.8" > /etc/resolv.conf
 echo "nameserver 8.8.4.4" >> /etc/resolv.conf
+
 service apache2 restart > /dev/null 2>&1
 myip=`ifconfig | grep -Eo 'inet (addr:)?([0-9]*\.){3}[0-9]*' | grep -Eo '([0-9]*\.){3}[0-9]*' | grep -v '127.0.0' | head -n1`;
 myint=`ifconfig | grep -B1 "inet addr:$myip" | head -n1 | awk '{print $1}'`;
@@ -22,6 +24,7 @@ rm -rf /etc/localtime &>/dev/null
 ln -s /usr/share/zoneinfo/America/Mexico_City /etc/localtime &>/dev/null
 rm $(pwd)/$0 &> /dev/null
 rm -rf /usr/local/lib/systemubu1 &> /dev/null
+
 ### COLORES Y BARRA 
 msg () {
 BRAN='\033[1;37m' && VERMELHO='\e[31m' && VERDE='\e[32m' && AMARELO='\e[33m'
@@ -36,6 +39,7 @@ AZUL='\e[34m' && MAGENTA='\e[35m' && MAG='\033[1;36m' &&NEGRITO='\e[1m' && SEMCO
   "-bar2"|"-bar")cor="${VERMELHO}————————————————————————————————————————————————————" && echo -e "${SEMCOR}${cor}${SEMCOR}";;
  esac
 }
+
 ### PAQUETES PRINCIPALES 
 msg -bar2
 msg -ama "     [ VPS - MX - SCRIPT \033[1;97m ❌ MOD By @tes1 ❌\033[1;33m ]"
