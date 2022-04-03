@@ -238,6 +238,7 @@ chmod +x /bin/rebootnb
 wget -O /bin/resetsshdrop https://raw.githubusercontent.com/Waldo60/Edit.full/main/Install/ArchivosUtilitarios/resetsshdrop &> /dev/null
 chmod +x /bin/resetsshdrop
 msg -bar2
+
 echo '#!/bin/sh -e' > /etc/rc.local
 sudo chmod +x /etc/rc.local
 echo "sudo rebootnb" >> /etc/rc.local
