@@ -155,8 +155,6 @@ read -t 20 -n 1 -rsp $'\033[1;39m Preciona Enter Para continuar\n'
 clear
 ### FIXEADOR PARA SISTEMAS 86_64
 idfix64_86 () {
-clear
-clear
 msg -bar2
 msg -ama "     [ VPS - MX - SCRIPT \033[1;97m ❌ MOD By @tes2 ❌\033[1;33m ]"
 msg -bar2
