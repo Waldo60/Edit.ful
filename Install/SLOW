@@ -80,7 +80,7 @@ initslow() {
         keypub=$(cat $DIR/server.pub)
         cd $HOME
         echo "ps x | grep 'slow_dns' | grep -v 'grep' || screen -dmS slow_dns $DIR/dns-server -udp :5300 -privkey-file /etc/VPSManager/dns/server.key ${ns} 0.0.0.0:${ptdns}" >> /etc/autostart
-        tmx='curl -sO https://github.com/FOX-GOD/Prime/raw/main/Modulos/slowdns && chmod +x slowdns && ./slowdns'
+        tmx='curl -sO https://github.com///raw/main/Modulos/slowdns && chmod +x slowdns && ./slowdns'
         echo -e "\n\033[0;36m_SLOWDNS ACTIVADO_${SCOLOR}"
         #echo -e "\n${YELLOW}COMANDO TERMUX${SCOLOR}: ${tmx}
         echo -e "\033[1;37mNAME SERVER:${SCOLOR} ${ns}"
