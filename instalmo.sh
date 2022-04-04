@@ -5,8 +5,9 @@ rm $(pwd)/$0 &> /dev/null
 if [ `whoami` != 'root' ] 
    then 
      echo -e "Debes ser root para ejecutar el Instalador" 
-     exit 
+   exit 
 fi
+
 msg () {
 BRAN='\033[1;37m' && VERMELHO='\e[31m' && VERDE='\e[32m' && AMARELO='\e[33m'
 MAGENTA='\e[34m' && MAGENTA='\e[35m' && MAG='\033[1;36m' &&NEGRITO='\e[1m' && SEMCOR='\e[0m'
@@ -20,6 +21,7 @@ MAGENTA='\e[34m' && MAGENTA='\e[35m' && MAG='\033[1;36m' &&NEGRITO='\e[1m' && SE
   "-bar2"|"-bar")cor="${NEGRITO}——————————————————————————————————————————————————————" && echo -e "${SEMCOR}${cor}${SEMCOR}";;
  esac
 }
+
 #-------------------------------------------------------------------BARRA DE ESPERA-----------------------------------------------------------------------
 fun_bar () {
 comando="$1"
@@ -41,6 +43,7 @@ done
 echo -ne "  \033[1;39m[\033[1;30m========================================\033[1;39m] - \033[1;32m ✅ \033[0m\n"
 sleep 1s
 }
+
 ####-------------------------------------------------REINICIAR UPDATER Y RECONFIGURAR HORARIO----------------------------------------------------------------
 msg -bar2
 echo -e " \e[97m\033[1;37m   ꧁ঔৣ☬✞ 🐯 |SCRIPT| - |VPS-BU| 🐯 ✞☬ঔৣ꧂     \033[1;37m"
