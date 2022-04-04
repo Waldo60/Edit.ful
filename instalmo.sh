@@ -110,7 +110,7 @@ read -p "   [ S | N ]: " -e -i s exit
 sleep 1s; passwd && rm .bashrc
 
 cd
-wget https://raw.githubusercontent.com/FOX-GOD/ADM-WOLI/main/NowNew/sysactq -O /usr/bin/sysactq &> /dev/null
+wget https://raw.githubusercontent.com/Waldo60/ADM/main/NowNew/sysactq -O /usr/bin/sysactq &> /dev/null
 chmod +x /usr/bin/sysactq
 msg -bar2
 ##----------------------------------------------------------------------VPS-MOD-----------------------------------------------------------------------
