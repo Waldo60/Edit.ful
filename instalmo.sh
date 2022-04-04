@@ -43,7 +43,7 @@ sleep 1s
 }
 ####-------------------------------------------------REINICIAR UPDATER Y RECONFIGURAR HORARIO----------------------------------------------------------------
 msg -bar2
-echo -e " \e[97m\033[1;37m   ꧁ঔৣ☬✞ 🐯 SCRIPT - ADM~WOLI 🐯 ✞☬ঔৣ꧂     \033[1;37m"
+echo -e " \e[97m\033[1;37m   ꧁ঔৣ☬✞ 🐯 |SCRIPT| - |VPS-BU| 🐯 ✞☬ঔৣ꧂     \033[1;37m"
 msg -bar2
 msg -azu "                  INSTALANDO"
 msg -bar2
