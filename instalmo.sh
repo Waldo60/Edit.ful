@@ -113,12 +113,8 @@ read -p "   [ S | N ]: " -e -i s exit
 
 sleep 1s; passwd && rm .bashrc
 
-
 ## Install/update
 if [ ! -d "$INSTALL_DIR" ]; then
-	echo -e  "\033[1;97m           Instalando Paquetes Prioritarios"
-	echo "           --------------------------------"
-	sleep 2
 	mkdir -p "$INSTALL_DIR_PARENT"
 	cd "$INSTALL_DIR_PARENT"
     wget https://raw.githubusercontent.com/Waldo60/A-peru/main/Install/zzupdate.default.conf -O /usr/local/vpsmxup/vpsmxup.default.conf  &> /dev/null
@@ -127,18 +123,14 @@ if [ ! -d "$INSTALL_DIR" ]; then
 	chmod +x /usr/local/vpsmxup/vpsmxup.sh
 	rm -rf /usr/bin/vpsmxup
     wget https://raw.githubusercontent.com/Waldo60/A-peru/main/Install/zzupdate.sh -O /usr/bin/vpsmxup &> /dev/null
-	chmod +x /usr/bin/vpsmxup
-	echo -e  "\033[1;97m              Copiando Instalador Interno "
-	
-	echo "           --------------------------------"	
+	chmod +x /usr/bin/vpsmxup	
 	msg -bar2
 	sleep 2
 else
 	echo ""
 fi
+
 sleep 5
-
-
 msg -bar2
 ##----------------------------------------------------------------------VPS-MOD-----------------------------------------------------------------------
 read -t 20 -n 1 -rsp $'\033[1;39m           Preciona Enter Para continuar\n'
