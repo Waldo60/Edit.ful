@@ -58,9 +58,8 @@ WORKING_DIR_ORIGINAL="$(pwd)"
 INSTALL_DIR_PARENT="/usr/local/vpsmxup/"
 INSTALL_DIR=${INSTALL_DIR_PARENT}${SCRIPT_NAME}/
 mkdir -p "/etc/vpsmxup/" &> /dev/null
-## ------------------------------------------------------------------AUTO ACTULIZADOR-----------------------------------------------------------------------
 
-##-----------------------------------------------------------------------PAKETES---------------------------------------------------------------------------
+## ---------------------------------------------------------------AUTO ACTULIZADOR Y PACKS NECESARY-----------------------------------------------------------
 msg -bar2
 echo -e "\033[97m    1 INTENTANDO DETENER UPDATER SECUNDARIO " 
 fun_bar " killall apt apt-get > /dev/null 2>&1 "
@@ -82,6 +81,7 @@ echo -e "\033[97m    7 DESACTIVANDO PASS ALFANUMERICO "
 sed -i 's/.*pam_cracklib.so.*/password sufficient pam_unix.so sha512 shadow nullok try_first_pass #use_authtok/' /etc/pam.d/common-password > /dev/null 2>&1 
 fun_bar "service ssh restart > /dev/null 2>&1 "
 msg -bar2
+
 #-----------------------------------------------------------------------cambiopass-----------------------------------------------------------------------
 msg -bar2
 echo -e "\033[93m              AGREGAR/EDITAR PASS ROOT\033[97m" 
