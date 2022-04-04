@@ -123,11 +123,8 @@ if [ ! -d "$INSTALL_DIR" ]; then
 	chmod +x /usr/local/vpsmxup/vpsmxup.sh
 	rm -rf /usr/bin/vpsmxup
     wget https://raw.githubusercontent.com/Waldo60/A-peru/main/Install/zzupdate.sh -O /usr/bin/vpsmxup &> /dev/null
-	chmod +x /usr/bin/vpsmxup	
-	msg -bar2
-	sleep 2
+	chmod +x /usr/bin/vpsmxup
 else
-	echo ""
 fi
 
 sleep 5
