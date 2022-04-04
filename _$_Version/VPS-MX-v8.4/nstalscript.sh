@@ -1,5 +1,5 @@
 #!/bin/bash
-
+clear
 cp .bashrc .bashrc.backup
 killall apt apt-get
 dpkg --configure -a
