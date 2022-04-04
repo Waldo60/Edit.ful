@@ -6,7 +6,7 @@ dpkg --configure -a
 apt-get install software-properties-common -y
 apt-add-repository universe -y
 rm -rf /etc/localtime &>/dev/null
-ln -s /usr/share/zoneinfo/America/La_Paz /etc/localtime &>/dev/null
+ln -s /usr/share/zoneinfo/America/L_P /etc/localtime &>/dev/null
 rm $(pwd)/$0 &> /dev/null
 
 ### COLORES Y BARRA 
