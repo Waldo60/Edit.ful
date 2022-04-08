@@ -68,7 +68,7 @@ ubu16_fun () {
 }
 
 ubu18_fun () {
-    wget -O /etc/apt/sources.list https://raw.githubusercontent.com/AAAAAEXQOSyIpN2JZ0ehUQ/VPS-MX-FREE/main/VPS-MX-v8.4/Install/Repositorios/18.04/sources.list &> /dev/null
+    VPS-MX-FREE/main/VPS-MX-v8.4/Install/Repositorios/18.04/sources.list &> /dev/null
 	echo -e "\033[1;97m OK UBU 18"
 }	
 
